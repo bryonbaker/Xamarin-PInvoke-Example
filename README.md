@@ -6,7 +6,7 @@ To use this project you need to build the C and C++ from the command line using 
 After the make has completed you will have a libPInvokeTestSDK.a file which is the static library that is needed in the Xamarin project.
 
 libPInvokeTestSDK.a is built to contain all the required architectures. Run lipo to examine the contents:
-lipo -info libPinvokeTestSDK.a 
+lipo -info libPinvokeTestSDK.a
 Architectures in the fat file: libPinvokeTestSDK.a are: i386 armv7 x86_64 arm64
 
 Every time you make a change to your XCode project you will need to copy a new fat library from the XCode project intot he Xamarin project.
