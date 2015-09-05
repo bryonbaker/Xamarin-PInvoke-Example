@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinPInvokeTest", "XamarinPInvokeTest.csproj", "{D50B0DA3-77A6-4FF0-9105-ABD6AAA57FE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{58653836-023A-4CD9-805D-D6023AA0CA00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D50B0DA3-77A6-4FF0-9105-ABD6AAA57FE6}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{D50B0DA3-77A6-4FF0-9105-ABD6AAA57FE6}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{D50B0DA3-77A6-4FF0-9105-ABD6AAA57FE6}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D50B0DA3-77A6-4FF0-9105-ABD6AAA57FE6}.Debug|iPhone.Build.0 = Debug|iPhone
+		{D50B0DA3-77A6-4FF0-9105-ABD6AAA57FE6}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D50B0DA3-77A6-4FF0-9105-ABD6AAA57FE6}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D50B0DA3-77A6-4FF0-9105-ABD6AAA57FE6}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{D50B0DA3-77A6-4FF0-9105-ABD6AAA57FE6}.Release|Any CPU.Build.0 = Release|iPhone
+		{D50B0DA3-77A6-4FF0-9105-ABD6AAA57FE6}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D50B0DA3-77A6-4FF0-9105-ABD6AAA57FE6}.Release|iPhone.Build.0 = Release|iPhone
+		{D50B0DA3-77A6-4FF0-9105-ABD6AAA57FE6}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D50B0DA3-77A6-4FF0-9105-ABD6AAA57FE6}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
