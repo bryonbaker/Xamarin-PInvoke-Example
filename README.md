@@ -18,3 +18,12 @@ The Build Options in the Xamarin project (Build > iOS Build > Additional Options
      -cxx -gcc_flags "-L${ProjectDir} -lPinvokeTestSDK -force_load ${ProjectDir}/libPinvokeTestSDK.a" -gcc_flags "-Wl,-map,${ProjectDir}/output.map" 
 
 The XCode Project's Code Signing is set to Developer.
+
+# Known Issues
+1. BUIlding the sample app fails in Visual Studio because the libPInvokeTestSDK.a is not copied to the build server. 
+To fix this, you need to set the "Copy to output directory" value in the libPInvokeTestSDK.a properties to "Copy Always". 
+It is currently set to "Do not copy" which results in the library not being copied to the Mac build host and thus the file not being found. 
+To fix this all you have to do is:
+a. Open the properties for the libPInvokeTestSDK.a and change the value for the "Copy to output directory" field to "Copy Always."
+b. Right click on the libPInvokeTestSDK.a file and select "Properties"
+c. In the properties pane that opens, change the value for "Copy to output directory" from "Do not copy" to "Always Copy".
