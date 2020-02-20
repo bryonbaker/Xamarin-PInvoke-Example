@@ -24,5 +24,7 @@ extern "C" void DisposeTestClass( TestClass* pObject)
 
 extern "C" int GetNumber( TestClass *pObject )
 {
+    // This is unsafe. You should check the pointer is not NULL/
+    // I haven't tested what happens if an exception is thrown from C++ to C#.
     return pObject->GetNumber();
 }
